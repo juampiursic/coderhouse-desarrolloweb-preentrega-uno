@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,100;1,400;1,600;1,900&display=swap');
+
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    width: 100%;
+    margin: 120px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+section{
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 200px;
+    display: block;
+}
+
+section aside{
+    position: absolute;
+    padding-left: 1000px;
+    margin-top: 500px;
+}
+
+section h1{
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 76px;
+    padding-bottom: 25px;
+    color: #A4A7B2;
+    width: 900px;
+}
+
+section p{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    padding-bottom: 25px;
+    color: #686B76;
+}
+
+section .connections{
+    position: relative;
+}
+
+section #uno{
+    background-color: #686B76;
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    margin-left: 450px;
+    display: inline-block;
+    position: absolute;
+    border: 5px solid white;
+}
+
+section #dos{
+    background-color: #686B76;
+    width: 400px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: inline-block;
+    position: absolute;
+    border: 5px solid white;
+}
+
+section #tres{
+    background-color: #686B76;
+    width: 400px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 250px;
+    display: inline-block;
+    position: absolute;
+    border: 5px solid white;
+}
+
+section #cuatro{
+    background-color: #686B76;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    display: inline-block;
+    position: absolute;
+    border: 5px solid white;
+}
+
+footer{
+    width: 100%;
+    height: 72px;
+    background-color: #A4A7B2;
+    position: sticky;
+    top: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    top: 0;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
